@@ -21,4 +21,4 @@ The space complexity is O(1) because we are only storing the most recent three p
 
 ### Improvement Ideas
 The function currently assumes that the person can jump up to three stairs at a time. The function could improved by taking the person's jumping ability as input.
-<br/>The function could also be improved by validating the assumption that the staircaseLength input is positive. Though, this assumption is guaranteed by the problem statement.
+<br/>The function could also be improved by validating the assumption that the staircaseLength input is positive. Though, it may not be needed as it is guaranteed by the problem statement.
