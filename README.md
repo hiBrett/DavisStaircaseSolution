@@ -3,7 +3,7 @@
 Challenge Source: https://www.hackerrank.com/challenges/ctci-recursive-staircase
 
 #### Description
-You can climb a staircase by taking either one, two or three steps at a time. Given the numbe of stairs, find how many different ways there are to reach the top.
+You can climb a staircase by taking either one, two or three steps at a time. Given the number of stairs, find how many different ways there are to reach the top.
 
 #### Solution
 My strategy is to start from the top and work backwards. Each staircase we reach we will save the result from that point, that way we won't need to re-calculate it each time. Also, we will actually only need to save the results from the most recent three staircases as those are the only ones accessible to the current one.
